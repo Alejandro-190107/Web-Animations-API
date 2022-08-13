@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="assets/img/logo.png" rel="icon">
+        <link rel="stylesheet" href="assets/librerias/bootstrap.min.css"> <!--* Libraries Bootstrap -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script> <!-- script Web Animations API -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.5.0/just-animate-all.min.js"></script> <!-- script Web Animations API -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.5.0/just-animate-tools.min.js"></script> <!-- script Web Animations API -->
+		<title> Web Animations API </title>
+
+	</head>
+
+	<body>
+
+		<header>
+			
+			<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color" style="background-color: #212121;">
+
+				<a class="navbar-brand" href="index.html" style="color: #b2ebf2;"> Web Animations API </a>
+
+				<img src="assets/img/1865-shooting-stars-flat.gif" height="50" class="d-inline-block align-top" alt="mdb logo">  
+				
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	
+				<div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+				
+					<ul class="navbar-nav ml-auto nav-flex-icons">
+
+						<li class="nav-item"> <a class="nav-link waves-effect waves-light" target="_blank" href="https://github.com/Alejandro-190107" style="color: #b2ebf2;"> <i class="fab fa-github-square"></i> </a> </li>
+						<li class="nav-item"> <a class="nav-link waves-effect waves-light" href="#" style="color: #b2ebf2;"> <i class="fab fa-linkedin"></i></a> </li>
+						<li class="nav-item"> <a class="nav-link waves-effect waves-light" target="_blank" href="#" style="color: #b2ebf2;"> <i class="fas fa-globe"></i></a> </li>
+		
+	  				</ul>
+
+				</div>
+
+  			</nav>
+		  
+		</header>
+
+		<!-- container -->
+        <div class="container">
+
+				<div class="card">
+					
+					<div class="card-body">
+						<p class="indications"> <marquee behavior="alternate" direction="left"> Toca encima de cada imagen para poder ver las animaciones. </marquee> </p>
+					</div>
+
+			  	</div>
+
+				<!-- face front  -->
+	 			<div class="face front">
+					
+					<!-- card-body -->
+					<div class="card-body">
+
+						<!-- row row-cols-1 row-cols-md-3 -->
+						<div class="row row-cols-1 row-cols-md-3">
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+
+										<h4 class="card-title"> León </h4>
+								  		<img class="card-img-1" src="assets/img/lion-img.png" alt="Image" onClick="oneAnimation();">
+								  		
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> El león es un mamífero carnívoro de la familia de los félidos y una de las cinco especies del género Panthera. </p>
+								  		
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+
+										<h4 class="card-title"> Mariposa </h4>
+										<img class="card-img-2" src="assets/img/butterfly-img.png" alt="Image" onClick="twoAnimation();">
+						
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> Los lepidópteros son un orden de insectos holometábolos, casi siempre voladores, conocidos comúnmente como mariposas. </p>
+						  
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+
+										<h4 class="card-title"> Delfin </h4>
+										<img class="card-img-3" src="assets/img/dolphin-img.png" alt="Image" onClick="threeAnimation();">
+						
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> El delfin es un mamífero de una familia de cetáceos odontocetos muy heterogénea, que comprende 37 especies actuales. </p>
+						  
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+										<h4 class="card-title"> Colibri </h4>
+										<img class="card-img-4" src="assets/img/hummingbird-img.png" alt="Image" onClick="fourAnimation();">
+								  		
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> El Colibri es un género de aves apodiformes pertenecientes a la subfamilia de los troquilinos, el género agrupa a cinco especies. </p>
+								  		
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+						</div>
+						<!-- row row-cols-1 row-cols-md-3 -->
+
+						<!-- row row-cols-1 row-cols-md-3 -->
+						<div class="row row-cols-1 row-cols-md-3">
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+
+										<h4 class="card-title"> Gríllo </h4>
+								  		<img class="card-img-5" src="assets/img/cricket-img.png" alt="Image" onClick="fiveAnimation();">
+								  		
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+								  		<p class="card-text"> El gríllo es una familia de insectos ortópteros de la superfamilia Grylloidea, dentro del suborden Ensifera. </p>
+								  		
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+
+										<h4 class="card-title"> Águila </h4>
+										<img class="card-img-6" src="assets/img/eagle-img.webp" alt="Image" onClick="sixAnimation();">
+						
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> El Águila es el nombre dado a las aves de presa, del orden de Accipitriformes, familia Accipitridae, subfamilia Buteoninae. </p>
+						  
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">	
+
+										<h4 class="card-title"> Murciélago </h4>
+										<img class="card-img-7" src="assets/img/bat-img.png" alt="Image" onClick="sevenAnimation();">
+						
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> El murciélago, es un orden de mamíferos placentarios cuyas extremidades superiores se desarrollaron como alas. </p>
+						  
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+							<!-- col mb-4 -->
+							<div class="col mb-4">
+
+								<!-- Card -->
+								<div class="card h-100">
+
+									<!--Card image-->
+									<div class="view overlay">
+
+										<h4 class="card-title"> Perro </h4>
+										<img class="card-img-8" src="assets/img/dog-img.png" alt="Image" onClick="eigthAnimation();">
+						
+									</div>
+									<!--Card image-->
+						  
+									<!--Card content-->
+									<div class="card-body">
+						  
+										<p class="card-text"> El perro es un mamífero carnívoro de la familia de los cánidos, que constituye una especie del género Canis.</p>
+						  
+									</div>
+									<!--Card content-->
+						  
+							  	</div>
+							  	<!-- Card -->
+
+							</div>
+							<!-- col mb-4 -->
+
+						</div>
+						<!-- row row-cols-1 row-cols-md-3 -->
+						
+					</div>
+					<!-- card-body -->
+
+	  			</div>
+				<!-- face front  -->
+
+		</div>
+		<!-- container -->
+
+		<footer class="page-footer font-small blue fixed-bottom" style="background-color: #212121;">
+
+			<div class="footer-copyright text-center text-light py-3"> <b style="color: #b2ebf2;" ><i class="far fa-copyright"></i> 2022 Creado Por Alejandro López</b></div>
+		
+		</footer>
+
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script src="assets/librerias/jquery-3.6.0.min.js"></script> <!--! Libraries jquery -->
+        <script src="assets/librerias/popper.min.js"></script> <!--! Libraries Icons -->
+        <script src="assets/librerias/bootstrap.min.js"></script> <!--! Libraries Bootstrap -->
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script> <!--! Libraries Font Of fontawesome -->
+
+        <script defer src="assets/js/main.js"></script>
+
+	</body>
+	
+</html>
