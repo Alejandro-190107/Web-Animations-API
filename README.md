@@ -23,6 +23,6 @@ The `Web Animations API` allows for synchronizing and timing changes to the pres
 
 ## <p align="left" style="color: #ec407a "> Screenshot Project 💻 </p>
 
-🔶 [Project Website](https://alejandro-lopez.futuretecware.com/Web-Animations-API/index.html)
+🔶 [Project Website](https://alejandro-190107.github.io/Web-Animations-API/)
 
 ![Screenshot](assets/img/Screenshot.png)
